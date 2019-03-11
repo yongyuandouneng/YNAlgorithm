@@ -7,29 +7,25 @@
 //
 
 #import <Foundation/Foundation.h>
-/// LeetCode
-#import "LeetCode_206_ReverseLinkedList.h"
-/// Search Algorithm
-#import "Algorithm.h"
-#import "Constant.h"
-#import "DataStructureQueue.h"
-#import "InterviewAlgorithm.h"
-#import "YNAlgorithm-Swift.h"
-
-struct ListNode *getHead () {
-    struct ListNode *head = NULL;
-    for (int i = 3; i > 0; i--) {
-        struct ListNode *p = (struct ListNode *)malloc(sizeof(struct ListNode));
-        p -> val = i;
-        p -> next = head;
-        head = p;
-    }
-    return head;
-}
+#import "LinearList.h"
+#import "Tree.h"
+#import "Graph.h"
+#import "Sort.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        reverseListForRecursive(getHead());
+        
+        Node *head = CreateListHead(5);
+        InsertElemForC(head, 1, 10);
+//        int a;
+//        DeleteElemForC(head, 2, &a);
+        while (head) {
+            head = head -> next;
+            if (head) {
+                NSLog(@"%d", head -> data);
+            }
+        }
+        NSLog(@"finished");
     }
     return 0;
 }

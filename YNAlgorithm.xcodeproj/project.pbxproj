@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E28383722350C8D00DD8BA2 /* Graph.c in Sources */ = {isa = PBXBuildFile; fileRef = 2E28383622350C8D00DD8BA2 /* Graph.c */; };
+		2E28383A2235F3EF00DD8BA2 /* Sort.c in Sources */ = {isa = PBXBuildFile; fileRef = 2E2838392235F3EF00DD8BA2 /* Sort.c */; };
+		2E97855B222EC529001AE129 /* LinearList.c in Sources */ = {isa = PBXBuildFile; fileRef = 2E97855A222EC529001AE129 /* LinearList.c */; };
+		2E9785642230F7D3001AE129 /* Tree.c in Sources */ = {isa = PBXBuildFile; fileRef = 2E9785632230F7D3001AE129 /* Tree.c */; };
 		2EA05A281E15521700CC7375 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA05A271E15521700CC7375 /* main.m */; };
-		2EB3E40F20833920004663FF /* DataStructureQueue.c in Sources */ = {isa = PBXBuildFile; fileRef = 2EB3E40E20833920004663FF /* DataStructureQueue.c */; };
-		2EE895832149118000AF9D84 /* LeetCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE895822149118000AF9D84 /* LeetCode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,18 +27,23 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2E1D09FE22324D8C00BA81DC /* DSGlobalHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSGlobalHeader.h; sourceTree = "<group>"; };
+		2E28383522350C8D00DD8BA2 /* Graph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Graph.h; sourceTree = "<group>"; };
+		2E28383622350C8D00DD8BA2 /* Graph.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Graph.c; sourceTree = "<group>"; };
+		2E2838382235F3EF00DD8BA2 /* Sort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sort.h; sourceTree = "<group>"; };
+		2E2838392235F3EF00DD8BA2 /* Sort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Sort.c; sourceTree = "<group>"; };
 		2E2CEC6020736518002736ED /* Algorithm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Algorithm.h; sourceTree = "<group>"; };
 		2E2DABE12133ACF700A7803B /* InterviewAlgorithm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterviewAlgorithm.h; sourceTree = "<group>"; };
+		2E978559222EC529001AE129 /* LinearList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinearList.h; sourceTree = "<group>"; };
+		2E97855A222EC529001AE129 /* LinearList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LinearList.c; sourceTree = "<group>"; };
+		2E9785622230F7D3001AE129 /* Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tree.h; sourceTree = "<group>"; };
+		2E9785632230F7D3001AE129 /* Tree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Tree.c; sourceTree = "<group>"; };
 		2EA05A241E15521700CC7375 /* YNAlgorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = YNAlgorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EA05A271E15521700CC7375 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2EA05A751E161C5700CC7375 /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
-		2EB3E40D208337CD004663FF /* DataStructureQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataStructureQueue.h; sourceTree = "<group>"; };
-		2EB3E40E20833920004663FF /* DataStructureQueue.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = DataStructureQueue.c; sourceTree = "<group>"; };
 		2EBEA88B21D07B3D005F6CEF /* LeetCode_234_PalindromeLinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeetCode_234_PalindromeLinkedList.h; sourceTree = "<group>"; };
 		2EBEA88C21D07B3D005F6CEF /* LeetCode_206_ReverseLinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeetCode_206_ReverseLinkedList.h; sourceTree = "<group>"; };
 		2EE895792147737300AF9D84 /* SearchAlgorithm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchAlgorithm.h; sourceTree = "<group>"; };
-		2EE8958021490E3C00AF9D84 /* YNAlgorithm-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YNAlgorithm-Bridging-Header.h"; sourceTree = "<group>"; };
-		2EE895822149118000AF9D84 /* LeetCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +84,6 @@
 				2EA05A741E161C4C00CC7375 /* Constant */,
 				2EA05A271E15521700CC7375 /* main.m */,
 				2E2CEC6020736518002736ED /* Algorithm.h */,
-				2EE8958021490E3C00AF9D84 /* YNAlgorithm-Bridging-Header.h */,
 			);
 			path = YNAlgorithm;
 			sourceTree = "<group>";
@@ -108,8 +114,15 @@
 		2EBEA88F21D07D46005F6CEF /* DataStructure */ = {
 			isa = PBXGroup;
 			children = (
-				2EB3E40D208337CD004663FF /* DataStructureQueue.h */,
-				2EB3E40E20833920004663FF /* DataStructureQueue.c */,
+				2E1D09FE22324D8C00BA81DC /* DSGlobalHeader.h */,
+				2E978559222EC529001AE129 /* LinearList.h */,
+				2E97855A222EC529001AE129 /* LinearList.c */,
+				2E9785622230F7D3001AE129 /* Tree.h */,
+				2E9785632230F7D3001AE129 /* Tree.c */,
+				2E28383522350C8D00DD8BA2 /* Graph.h */,
+				2E28383622350C8D00DD8BA2 /* Graph.c */,
+				2E2838382235F3EF00DD8BA2 /* Sort.h */,
+				2E2838392235F3EF00DD8BA2 /* Sort.c */,
 			);
 			path = DataStructure;
 			sourceTree = "<group>";
@@ -125,7 +138,6 @@
 		2EE8957D21490E0A00AF9D84 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
-				2EE895822149118000AF9D84 /* LeetCode.swift */,
 				2EBEA88C21D07B3D005F6CEF /* LeetCode_206_ReverseLinkedList.h */,
 				2EBEA88B21D07B3D005F6CEF /* LeetCode_234_PalindromeLinkedList.h */,
 			);
@@ -191,9 +203,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E28383A2235F3EF00DD8BA2 /* Sort.c in Sources */,
+				2E97855B222EC529001AE129 /* LinearList.c in Sources */,
+				2E9785642230F7D3001AE129 /* Tree.c in Sources */,
+				2E28383722350C8D00DD8BA2 /* Graph.c in Sources */,
 				2EA05A281E15521700CC7375 /* main.m in Sources */,
-				2EB3E40F20833920004663FF /* DataStructureQueue.c in Sources */,
-				2EE895832149118000AF9D84 /* LeetCode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

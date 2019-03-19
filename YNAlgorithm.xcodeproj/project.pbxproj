@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E267979223E582500136705 /* Hash.c in Sources */ = {isa = PBXBuildFile; fileRef = 2E267978223E582500136705 /* Hash.c */; };
 		2E28383722350C8D00DD8BA2 /* Graph.c in Sources */ = {isa = PBXBuildFile; fileRef = 2E28383622350C8D00DD8BA2 /* Graph.c */; };
 		2E28383A2235F3EF00DD8BA2 /* Sort.c in Sources */ = {isa = PBXBuildFile; fileRef = 2E2838392235F3EF00DD8BA2 /* Sort.c */; };
+		2E972570223A071E000FF014 /* Search.c in Sources */ = {isa = PBXBuildFile; fileRef = 2E97256F223A071E000FF014 /* Search.c */; };
+		2E972573223A0778000FF014 /* DSInvoke.c in Sources */ = {isa = PBXBuildFile; fileRef = 2E972572223A0778000FF014 /* DSInvoke.c */; };
 		2E97855B222EC529001AE129 /* LinearList.c in Sources */ = {isa = PBXBuildFile; fileRef = 2E97855A222EC529001AE129 /* LinearList.c */; };
 		2E9785642230F7D3001AE129 /* Tree.c in Sources */ = {isa = PBXBuildFile; fileRef = 2E9785632230F7D3001AE129 /* Tree.c */; };
 		2EA05A281E15521700CC7375 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA05A271E15521700CC7375 /* main.m */; };
@@ -28,22 +31,25 @@
 
 /* Begin PBXFileReference section */
 		2E1D09FE22324D8C00BA81DC /* DSGlobalHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSGlobalHeader.h; sourceTree = "<group>"; };
+		2E267977223E582500136705 /* Hash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hash.h; sourceTree = "<group>"; };
+		2E267978223E582500136705 /* Hash.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Hash.c; sourceTree = "<group>"; };
 		2E28383522350C8D00DD8BA2 /* Graph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Graph.h; sourceTree = "<group>"; };
 		2E28383622350C8D00DD8BA2 /* Graph.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Graph.c; sourceTree = "<group>"; };
 		2E2838382235F3EF00DD8BA2 /* Sort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sort.h; sourceTree = "<group>"; };
 		2E2838392235F3EF00DD8BA2 /* Sort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Sort.c; sourceTree = "<group>"; };
-		2E2CEC6020736518002736ED /* Algorithm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Algorithm.h; sourceTree = "<group>"; };
 		2E2DABE12133ACF700A7803B /* InterviewAlgorithm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterviewAlgorithm.h; sourceTree = "<group>"; };
+		2E97256E223A071E000FF014 /* Search.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Search.h; sourceTree = "<group>"; };
+		2E97256F223A071E000FF014 /* Search.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Search.c; sourceTree = "<group>"; };
+		2E972571223A0778000FF014 /* DSInvoke.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSInvoke.h; sourceTree = "<group>"; };
+		2E972572223A0778000FF014 /* DSInvoke.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = DSInvoke.c; sourceTree = "<group>"; };
 		2E978559222EC529001AE129 /* LinearList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinearList.h; sourceTree = "<group>"; };
 		2E97855A222EC529001AE129 /* LinearList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LinearList.c; sourceTree = "<group>"; };
 		2E9785622230F7D3001AE129 /* Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tree.h; sourceTree = "<group>"; };
 		2E9785632230F7D3001AE129 /* Tree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Tree.c; sourceTree = "<group>"; };
 		2EA05A241E15521700CC7375 /* YNAlgorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = YNAlgorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EA05A271E15521700CC7375 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2EA05A751E161C5700CC7375 /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
 		2EBEA88B21D07B3D005F6CEF /* LeetCode_234_PalindromeLinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeetCode_234_PalindromeLinkedList.h; sourceTree = "<group>"; };
 		2EBEA88C21D07B3D005F6CEF /* LeetCode_206_ReverseLinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeetCode_206_ReverseLinkedList.h; sourceTree = "<group>"; };
-		2EE895792147737300AF9D84 /* SearchAlgorithm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchAlgorithm.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,28 +85,9 @@
 				2EBEA88F21D07D46005F6CEF /* DataStructure */,
 				2EBEA88E21D07D1B005F6CEF /* InterviewAlgorithm */,
 				2EE8957D21490E0A00AF9D84 /* LeetCode */,
-				2EE895782147735B00AF9D84 /* SearchAlgorithm */,
-				2EBEA88D21D07D08005F6CEF /* SortAlgorithm */,
-				2EA05A741E161C4C00CC7375 /* Constant */,
 				2EA05A271E15521700CC7375 /* main.m */,
-				2E2CEC6020736518002736ED /* Algorithm.h */,
 			);
 			path = YNAlgorithm;
-			sourceTree = "<group>";
-		};
-		2EA05A741E161C4C00CC7375 /* Constant */ = {
-			isa = PBXGroup;
-			children = (
-				2EA05A751E161C5700CC7375 /* Constant.h */,
-			);
-			path = Constant;
-			sourceTree = "<group>";
-		};
-		2EBEA88D21D07D08005F6CEF /* SortAlgorithm */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = SortAlgorithm;
 			sourceTree = "<group>";
 		};
 		2EBEA88E21D07D1B005F6CEF /* InterviewAlgorithm */ = {
@@ -123,16 +110,14 @@
 				2E28383622350C8D00DD8BA2 /* Graph.c */,
 				2E2838382235F3EF00DD8BA2 /* Sort.h */,
 				2E2838392235F3EF00DD8BA2 /* Sort.c */,
+				2E97256E223A071E000FF014 /* Search.h */,
+				2E97256F223A071E000FF014 /* Search.c */,
+				2E267977223E582500136705 /* Hash.h */,
+				2E267978223E582500136705 /* Hash.c */,
+				2E972571223A0778000FF014 /* DSInvoke.h */,
+				2E972572223A0778000FF014 /* DSInvoke.c */,
 			);
 			path = DataStructure;
-			sourceTree = "<group>";
-		};
-		2EE895782147735B00AF9D84 /* SearchAlgorithm */ = {
-			isa = PBXGroup;
-			children = (
-				2EE895792147737300AF9D84 /* SearchAlgorithm.h */,
-			);
-			path = SearchAlgorithm;
 			sourceTree = "<group>";
 		};
 		2EE8957D21490E0A00AF9D84 /* LeetCode */ = {
@@ -203,7 +188,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E972573223A0778000FF014 /* DSInvoke.c in Sources */,
 				2E28383A2235F3EF00DD8BA2 /* Sort.c in Sources */,
+				2E972570223A071E000FF014 /* Search.c in Sources */,
+				2E267979223E582500136705 /* Hash.c in Sources */,
 				2E97855B222EC529001AE129 /* LinearList.c in Sources */,
 				2E9785642230F7D3001AE129 /* Tree.c in Sources */,
 				2E28383722350C8D00DD8BA2 /* Graph.c in Sources */,
